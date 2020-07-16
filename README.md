@@ -32,4 +32,6 @@ To apply the error search for a different region the following steps must be per
   3. Run all scripts in "gap_search/levelled_search -> Some parameters might have to be adapted:
       - Quantiles of filter 2 (75% G1 and 25% of G2)
       - Rating system for G3
+      - Region ending for tables
+      - Input tables (ways + ways_vertices_pgr)
   4. Result = Table with O-D Pairs "od_cand_lx" per road network level  -> Columns with the calculated parameters and with the rating system
