@@ -30,7 +30,6 @@ To apply the error search for a different region the following steps must be per
   1. Create all functions in the folder "gap_search/functions"
   2. Prepare the different levels of the road network by running "preparation_errors.sql" with your region (to change: region ending, region geometry, if necessary ways and ways_vertices_pgr table)
   3. Run all scripts in "gap_search/levelled_search -> Some parameters might have to be adapted:
-  
-    - Quantiles of filter 2 (75% G1 and 25% of G2)
-    - Rating system for G3
+      - Quantiles of filter 2 (75% G1 and 25% of G2)
+      - Rating system for G3
   4. Result = Table with O-D Pairs "od_cand_lx" per road network level  -> Columns with the calculated parameters and with the rating system
