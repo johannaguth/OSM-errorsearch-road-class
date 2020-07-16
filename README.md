@@ -1,5 +1,7 @@
-# OSM-errorsearch-road-class
-A pgSQL software package that finds road classification errors in OpenStreetMap. It contains all functions required for the error search and an exemplary application for the state of New South Wales in Australia. Furthermore, an error reference dataset is provided with road class errors in New South Wales.
+# OSM Error Search for Road Classification Errors
+A pgSQL software package that finds road classification errors in OpenStreetMap. It contains all functions required for the error search and an exemplary application for the state of New South Wales (NSW) in Australia. Furthermore, an error reference dataset is provided with road class errors in New South Wales.
+
+The theory behind the error search, the application of this software, its development and a detailed evaluation of the results are described in the paper "..." (LINK) which is currently under review at the Journal of Spatial Information Science. The paper will be added to the repository once it is accepted. Please read the paper before applying the software.
 
 The developed error search consists of two independent parts: (a) the search for disconnected network components and (b) the gap search.
 These parts can run indepentent of each other.
@@ -13,11 +15,7 @@ Data:
   - The countries road network table created with osm2pgrouting
   - Some kind of region geometry polygon if a subregion is analyzed
 
-## Publication
-
-The theory behind the error search, the application of this software, and its development are described in the paper "..." (LINK) which is currently under review at the Journal of Spatial Information Science. Please read the paper before applying the software.
-
-## Application
+## Application and project organization
 
 To apply the error search for a different region the following steps must be performed:
 
@@ -35,3 +33,12 @@ To apply the error search for a different region the following steps must be per
       - Region ending for tables
       - Input tables (ways + ways_vertices_pgr)
   4. Result = Table with O-D Pairs "od_cand_lx" per road network level  -> Columns with the calculated parameters and with the rating system
+  
+  ## Data
+  An exemplary ways and ways_vertices_pgr table for NSW can be found in the "Data" folder. Furthermore, reference data in the form of an error reference dataset is presented in "Data/errors_nsw.csv".
+  
+  ## Liscense
+  This project is licensed under the BSD 3-Clause License - see the LISCENSE file for details.
+  
+  ## Authors
+  Johanna Guth
