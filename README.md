@@ -34,8 +34,8 @@ To apply the error search for a different region the following steps must be per
       - Input tables (ways + ways_vertices_pgr)
   4. Result = Table with O-D Pairs "od_cand_lx" per road network level  -> Columns with the calculated parameters and with the rating system
   
-  ## Data
-  An exemplary ways and ways_vertices_pgr table for NSW can be found in the "Data" folder. Furthermore, reference data in the form of an error reference dataset is presented in "Data/errors_nsw.csv".
+  ## Reference Data
+  Reference data for NSW in the form of an error reference dataset is presented in "refdata/errors_nsw.csv".
   
   ## Liscense
   This project is licensed under the BSD 3-Clause License - see the LISCENSE file for details.
