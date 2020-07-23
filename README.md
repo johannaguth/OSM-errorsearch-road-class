@@ -9,6 +9,7 @@ These parts can run indepentent of each other.
 ## Requirements
 Software: 
   - pgSQL database -> minimal version: V 11 (Requires procedures)
+  - plPython
   - PostGIS & pgrouting extensions
 
 Data:
