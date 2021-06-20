@@ -1,7 +1,11 @@
 # OSM Error Search for Road Classification Errors
 A pgSQL software package that finds road classification errors in OpenStreetMap. It contains all functions required for the error search and an exemplary application for the state of New South Wales (NSW) in Australia. Furthermore, an error reference dataset is provided with road class errors in New South Wales.
 
-The theory behind the error search, the application of this software, its development and a detailed evaluation of the results are described in the paper "Towards detecting, characterizing and rating of road class errors in crowd-sourced road network databases" (Link will follow) which is currently under review at the Journal of Spatial Information Science. The paper will be added to the repository once it is accepted. Please read the paper before applying the software.
+The theory behind the error search, the application of this software, its development and a detailed evaluation of the results are described in the paper: 
+
+Johanna Guth, Sina Keller, Stefan Hinz, and Stephan Winter. “Towards detecting, characterizing, and rating of road classiﬁcation errors in crowd-sourced road network databases”. In: Journal of Spatial Information Science 22 (2020), pp. 1–30. (http://josis.org/index.php/josis/article/viewFile/677/290)
+
+I suggest reading the paper before applying the software.
 
 The developed error search consists of two independent parts: (a) the search for disconnected network components and (b) the gap search.
 These parts can run indepentent of each other.
