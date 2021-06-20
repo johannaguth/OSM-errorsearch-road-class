@@ -3,7 +3,7 @@ A pgSQL software package that finds road classification errors in OpenStreetMap.
 
 The theory behind the error search, the application of this software, its development and a detailed evaluation of the results are described in the paper: 
 
-Johanna Guth, Sina Keller, Stefan Hinz, and Stephan Winter. “Towards detecting, characterizing, and rating of road classiﬁcation errors in crowd-sourced road network databases”. In: Journal of Spatial Information Science 22 (2020), pp. 1–30. (http://josis.org/index.php/josis/article/viewFile/677/290)
+Johanna Guth, Sina Keller, Stefan Hinz, and Stephan Winter. “**Towards detecting, characterizing, and rating of road classiﬁcation errors in crowd-sourced road network databases”**. In: Journal of Spatial Information Science 22 (2020), pp. 1–30. (http://josis.org/index.php/josis/article/viewFile/677/290)
 
 I suggest reading the paper before applying the software.
 
